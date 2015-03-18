@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		71C2BBE91AB998B8001B29C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2BBE81AB998B8001B29C7 /* main.m */; };
-		71C2BBEC1AB998B8001B29C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2BBEB1AB998B8001B29C7 /* AppDelegate.m */; };
 		71C2BBEF1AB998B9001B29C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2BBEE1AB998B9001B29C7 /* ViewController.m */; };
 		71C2BBF21AB998B9001B29C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C2BBF01AB998B9001B29C7 /* Main.storyboard */; };
 		71C2BBF41AB998B9001B29C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C2BBF31AB998B9001B29C7 /* Images.xcassets */; };
 		71C2BBF71AB998B9001B29C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C2BBF51AB998B9001B29C7 /* LaunchScreen.xib */; };
 		71C2BC031AB998B9001B29C7 /* PartyMeUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2BC021AB998B9001B29C7 /* PartyMeUpTests.m */; };
+		71C2BC0F1AB99B66001B29C7 /* Party.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2BC0E1AB99B66001B29C7 /* Party.m */; };
+		71C2BC131AB99C6B001B29C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2BC121AB99C6B001B29C7 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +31,6 @@
 		71C2BBE31AB998B8001B29C7 /* PartyMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C2BBE71AB998B8001B29C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71C2BBE81AB998B8001B29C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71C2BBEA1AB998B8001B29C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		71C2BBEB1AB998B8001B29C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71C2BBED1AB998B9001B29C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		71C2BBEE1AB998B9001B29C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		71C2BBF11AB998B9001B29C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +39,10 @@
 		71C2BBFC1AB998B9001B29C7 /* PartyMeUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyMeUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C2BC011AB998B9001B29C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71C2BC021AB998B9001B29C7 /* PartyMeUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyMeUpTests.m; sourceTree = "<group>"; };
+		71C2BC0D1AB99B66001B29C7 /* Party.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Party.h; sourceTree = "<group>"; };
+		71C2BC0E1AB99B66001B29C7 /* Party.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Party.m; sourceTree = "<group>"; };
+		71C2BC111AB99C6B001B29C7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PartyMeUp/AppDelegate.h; sourceTree = "<group>"; };
+		71C2BC121AB99C6B001B29C7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PartyMeUp/AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		71C2BBDA1AB998B8001B29C7 = {
 			isa = PBXGroup;
 			children = (
+				71C2BC141AB99C79001B29C7 /* Delegate */,
 				71C2BBE51AB998B8001B29C7 /* PartyMeUp */,
 				71C2BBFF1AB998B9001B29C7 /* PartyMeUpTests */,
 				71C2BBE41AB998B8001B29C7 /* Products */,
@@ -81,13 +85,9 @@
 		71C2BBE51AB998B8001B29C7 /* PartyMeUp */ = {
 			isa = PBXGroup;
 			children = (
-				71C2BBEA1AB998B8001B29C7 /* AppDelegate.h */,
-				71C2BBEB1AB998B8001B29C7 /* AppDelegate.m */,
-				71C2BBED1AB998B9001B29C7 /* ViewController.h */,
-				71C2BBEE1AB998B9001B29C7 /* ViewController.m */,
-				71C2BBF01AB998B9001B29C7 /* Main.storyboard */,
-				71C2BBF31AB998B9001B29C7 /* Images.xcassets */,
-				71C2BBF51AB998B9001B29C7 /* LaunchScreen.xib */,
+				71C2BC101AB99B70001B29C7 /* Models */,
+				71C2BC0C1AB99ACB001B29C7 /* Controllers */,
+				71C2BC151AB99C9A001B29C7 /* Resources */,
 				71C2BBE61AB998B8001B29C7 /* Supporting Files */,
 			);
 			path = PartyMeUp;
@@ -117,6 +117,43 @@
 				71C2BC011AB998B9001B29C7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71C2BC0C1AB99ACB001B29C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71C2BBED1AB998B9001B29C7 /* ViewController.h */,
+				71C2BBEE1AB998B9001B29C7 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		71C2BC101AB99B70001B29C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71C2BC0D1AB99B66001B29C7 /* Party.h */,
+				71C2BC0E1AB99B66001B29C7 /* Party.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		71C2BC141AB99C79001B29C7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				71C2BC111AB99C6B001B29C7 /* AppDelegate.h */,
+				71C2BC121AB99C6B001B29C7 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		71C2BC151AB99C9A001B29C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71C2BBF01AB998B9001B29C7 /* Main.storyboard */,
+				71C2BBF31AB998B9001B29C7 /* Images.xcassets */,
+				71C2BBF51AB998B9001B29C7 /* LaunchScreen.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C2BC131AB99C6B001B29C7 /* AppDelegate.m in Sources */,
 				71C2BBEF1AB998B9001B29C7 /* ViewController.m in Sources */,
-				71C2BBEC1AB998B8001B29C7 /* AppDelegate.m in Sources */,
+				71C2BC0F1AB99B66001B29C7 /* Party.m in Sources */,
 				71C2BBE91AB998B8001B29C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B51DE003-299E-4A0A-8AA8-68B9FF1E1E0B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PartyMeUp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E6FD0024F20A5C7DC060AA4B104CF940CB3E8FFD</key>
+		<string>https://github.com/andersonrsg/PartyMeUp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PartyMeUp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E6FD0024F20A5C7DC060AA4B104CF940CB3E8FFD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andersonrsg/PartyMeUp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E6FD0024F20A5C7DC060AA4B104CF940CB3E8FFD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E6FD0024F20A5C7DC060AA4B104CF940CB3E8FFD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PartyMeUp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
